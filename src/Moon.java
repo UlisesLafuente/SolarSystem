@@ -7,7 +7,7 @@ public class Moon extends CelestialBody{
         this.orbitingPlanet = orbitingPlanet;
         this.rockySurface = rockySurface;
 
-        setResistanceEvaluator(new MoonHabitabilityEvaluator());
+        setHabitabilityEvaluator(new MoonHabitabilityEvaluator());
     }
 
     @Override

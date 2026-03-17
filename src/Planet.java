@@ -8,7 +8,7 @@ public class Planet extends CelestialBody{
         this.moonCount = moonCount;
         this.atmosphere = atmosphere;
 
-        setResistanceEvaluator(new PlanetHabitabilityEvaluator());
+        setHabitabilityEvaluator(new PlanetHabitabilityEvaluator());
     }
 
     @Override

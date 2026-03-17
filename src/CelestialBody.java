@@ -12,7 +12,7 @@ public abstract class CelestialBody {
 
         this.HE = new NoHabitabilityEvaluator();
     }
-    public void setResistanceEvaluator(HabitabilityEvaluator evaluator) {
+    public void setHabitabilityEvaluator(HabitabilityEvaluator evaluator) {
         this.HE = evaluator;
     }
 
